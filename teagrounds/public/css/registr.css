@@ -1,0 +1,83 @@
+body{
+    /* background-color: #212529; */
+    background-image: url('../img/imgheader1.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container a.navbar {
+    color: white;
+    text-decoration: none;
+    font-family: 'Philosopher';
+    font-size: 3vw;
+}
+.d-c{
+    display: flex;
+    padding: 3vw 5vw 5vw;
+    margin-top: 6vw;
+    background: rgba(25, 29, 33, 0.9);
+    box-shadow: 14px 14px 20px rgba(0, 0, 0, 0.49);
+}
+.d-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Philosopher';
+    padding-bottom: 50px;
+}
+input{
+    background-color: transparent;
+    border: none;
+    border: #ffffff 1px solid;
+    outline: none;
+    width: 20vw;
+    height: 40px;
+    color: white;
+    font-size: 1vw;
+    padding: 5px;
+    padding-left: 2vw;
+    margin-bottom: 1.5vw;
+    font-family: 'Comfortaa';
+}
+.btn_registr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 275px;
+    height: 45px;
+    font-size: 1vw;
+    font-family: 'Philosopher';
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+button:hover{
+    background: white;
+    color: black;
+    transition: 2s;
+}
+li{
+    list-style: none;
+    margin-top: 1.5vw;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Philosopher';
+    font-size: 1vw;
+}

@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212529;
+}
+/*Начало шапки сайта*/
+header{
+    height: 10vh;
+    width: 100%;
+    border-bottom: 3px solid white;
+}
+.navigation{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+    font-size: 1.5vw;
+    font-family: 'Philosopher', sans-serif;
+}
+.navigation a{
+    color: white;
+}
+/*Конец шапки сайта*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Начало блока статья*/
+.news{
+    display: flex;
+    margin-top: 3vw;
+    flex-direction: column;
+}
+/**/
+.news_paragrph h3{
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.7vw;
+    margin:  5vw 100px 3.5vw;
+    padding-bottom: 1vw;
+    border-bottom: 2px solid white;
+}
+/**/
+.news_info1{
+    display: flex;
+    margin: 0 100px 1vw;
+    gap: 5vw;
+    align-items: center;
+}
+.news_info1 img{
+    width: 800px;
+    height: 500px;
+}
+.news_info1 p{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Philosopher', sans-serif;
+    width: auto;
+    height: auto;
+    word-wrap: break-all;
+    line-height: 2vw;
+}
+/**/
+.news_info2{
+    display: flex;
+    margin: 2.5vw 100px 1vw;
+}
+.news_info2 p{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Philosopher', sans-serif;
+    width: auto;
+    height: auto;
+    word-wrap: break-all;
+    line-height: 2vw;
+}
+.container {
+    display: grid;
+    gap: 2.5vw;
+    margin: 5vw 100px;
+    justify-content: space-around;
+}
+.container > div{
+    background-color: #191D21;
+    border: 1px solid white;
+    width: 302px;
+    height: 300px;
+}
+.item1_new{
+    grid-column: 1 / 2;
+}
+.item1_new img{
+    width: 300px;
+    height: 150px;
+}
+.item1_new a{
+    color: rgba(189, 186, 186, 0.25);
+    font-size: 0.6vw;
+    font-family: 'Comfortaa';
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.item1_new p{
+    color: white;
+    font-size: 0.7vw;
+    font-family: 'Comfortaa';
+    text-align: start;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.item2_new{
+    grid-column: 2 / 3;
+}
+.item2_new img{
+    width: 300px;
+    height: 150px;
+}
+.item2_new a{
+    color: rgba(189, 186, 186, 0.25);
+    font-size: 0.6vw;
+    font-family: 'Comfortaa';
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.item2_new p{
+    color: white;
+    font-size: 0.7vw;
+    font-family: 'Comfortaa';
+    text-align: start;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.item3_new{
+    grid-column: 3 / 4;
+}
+.item3_new img{
+    width: 300px;
+    height: 150px;
+}
+.item3_new a{
+    color: rgba(189, 186, 186, 0.25);
+    font-size: 0.6vw;
+    font-family: 'Comfortaa';
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.item3_new p{
+    color: white;
+    font-size: 0.7vw;
+    font-family: 'Comfortaa';
+    text-align: start;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.item4_new{
+    grid-column: 4 / 5;
+}
+.item4_new img{
+    width: 300px;
+    height: 150px;
+}
+.item4_new a{
+    color: rgba(189, 186, 186, 0.25);
+    font-size: 0.6vw;
+    font-family: 'Comfortaa';
+    margin-top: 0vw;
+    margin-left: 1vw;
+}
+.item4_new p{
+    color: white;
+    font-size: 0.7vw;
+    font-family: 'Comfortaa';
+    text-align: start;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+/*Конец блока статья*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Начало блока другие новости*/
+.news_more{
+    margin-top: 5vw;
+}
+.news_more h3{
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    margin: 100px;
+    padding-bottom: 2vw;
+    border-bottom: 2px solid white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 5vw 0;
+}
+.btn a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 45px;
+    font-size: 1.2vw;
+    padding-top: 10px;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+.btn a:hover{
+background: white;
+color: black;
+transition: 2s;
+}
+
+/*Конец блока другие новости*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Начало блока Footer*/
+.navigation_footer{
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5vw;
+    font-family: 'Philosopher';
+}
+footer{
+    height: 100%;
+    background-color: #191D21;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vw;
+}
+footer .navigation_footer{
+    padding-top: 5vh;
+    width: 100%;
+}
+footer a{     
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Philosopher';
+    margin-top: 2.5vh;
+}
+.cop{
+    color: white;
+    font-family: 'Philosopher';
+    font-size: 1.2vw;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+/*Конец блока Footer*/
