@@ -84,8 +84,8 @@ header{
 }
 .cont1 p{
     color: white;
-    font-family: 'Philosopher', sans-serif;
-    font-size: 1vw;
+    font-family: 'Comfortaa';
+    font-size: 0.9vw;
     word-wrap: break-all;
     padding-bottom: 0.5vw;
     border-bottom: 1px solid white;
@@ -105,8 +105,8 @@ header{
 }
 .cont2 p{
     color: white;
-    font-family: 'Philosopher', sans-serif;
-    font-size: 1vw;
+    font-family: 'Comfortaa';
+    font-size: 0.9vw;
     word-wrap: break-all;
     padding-bottom: 0.5vw;
     border-bottom: 1px solid white;
@@ -118,8 +118,6 @@ header{
     padding: 0 1vw;
     margin-top: 2.5vw;
 }
-.cont3 ul{
-}
 .cont3 ul > h4{
     color: white;
     font-family: 'Philosopher', sans-serif;
@@ -128,7 +126,7 @@ header{
 }
 .cont3 ul > p{
     color: white;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Comfortaa';
     font-size: 1vw;
 }
 /**/
@@ -139,11 +137,13 @@ header{
     width: 350px;
     height: 650px;
     border: 1px solid white;
-   justify-content: center;
-   align-items: center;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0 1.2vw;
 }
 /*contprice1*/
 .contprice1{
+    margin-top: 0.5vw;
     display: flex;
 }
 .contprice1 p{
@@ -151,6 +151,200 @@ header{
     font-size: 2.5vw;
     font-family: 'Philosopher', sans-serif;
 }
+.btn_top1{
+    display: flex;
+    justify-content: center;
+    margin: 0.5vw 0;
+    gap: 1vw;
+}
+.btn_top1_more1{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    height: 35px;
+    font-size: 1.1vw;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 2.5px;
+}
+.btn_top1_more1:hover{
+background: white;
+color: black;
+transition: 2s;
+}
+.btn_top1_more2{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 35px;
+    font-size: 1.1vw;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 2.5px;
+}
+.btn_top1_more2:hover{
+background: white;
+color: black;
+transition: 2s;
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+.delivery img{
+    width: 50px;
+    height: 50px;
+}
+.delivery p{
+    color: white;
+    font-size: 1.2vw;
+    font-family: 'Philosopher';
+}
+.info_price{
+    display: flex;
+    margin-top: 2vw;
+}
+.info_price p{
+    color: white;
+    font-size: 0.9vw;
+    font-family: 'Comfortaa';
+}
+    /*описание*/
+    .paragraph h3{
+        color: white;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 2.2vw;
+        margin: 0 100px;
+        text-align: center;
+        padding-bottom: 2vw;
+        border-bottom: 2px solid white;
+    }
+    .paragraph p{
+        margin: 2vw 100px 0;
+        color: white;
+        font-size: 1.2vw;
+        font-family: 'Comfortaa';
+        line-height: 2vw;
+    }
+    .container_btn{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3vw 0;
+    }
+    /*1*/
+    .btn_contain1{
+        display: flex;
+        justify-content: center;
+    }
+    .btn_contain1_more1{
+        text-decoration: none;
+        background-color: transparent;
+        background-color: white;
+        color: black;
+        border: 1px solid white;
+        width: 215px;
+        height: 45px;
+        font-size: 1.5vw;
+        font-family: 'Philosopher', sans-serif;
+        letter-spacing: 2.5px;
+    }
+    .btn_contain1_more1:hover{
+    background: white;
+    color: black;
+    transition: 2s;
+    }
+    /*2*/
+    .btn_contain2{
+        display: flex;
+        justify-content: center;
+    }
+    .btn_contain2_more2{
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        width: 215px;
+        height: 45px;
+        font-size: 1.5vw;
+        font-family: 'Philosopher', sans-serif;
+        letter-spacing: 2.5px;
+    }
+    .btn_contain2_more2:hover{
+    background: white;
+    color: black;
+    transition: 2s;
+    }
+    /*3*/
+    .btn_contain3{
+        display: flex;
+        justify-content: center;
+        margin: 0.5vw 0;
+    }
+    .btn_contain3_more3{
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        width: 215px;
+        height: 45px;
+        font-size: 1.5vw;
+        font-family: 'Philosopher', sans-serif;
+        letter-spacing: 2.5px;
+    }
+    .btn_contain3_more3:hover{
+    background: white;
+    color: black;
+    transition: 2s;
+    }
+    /*4*/
+    .btn_contain4{
+        display: flex;
+        justify-content: center;
+        margin: 0.5vw 0;
+    }
+    .btn_contain4_more4{
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        width: 215px;
+        height: 45px;
+        font-size: 1.5vw;
+        font-family: 'Philosopher', sans-serif;
+        letter-spacing: 2.5px;
+    }
+    .btn_contain4_more4:hover{
+    background: white;
+    color: black;
+    transition: 2s;
+    }
+    /*5*/
+    .btn_contain5{
+        display: flex;
+        justify-content: center;
+        margin: 0.5vw 0;
+    }
+    .btn_contain5_more5{
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        width: 215px;
+        height: 45px;
+        font-size: 1.5vw;
+        font-family: 'Philosopher', sans-serif;
+        letter-spacing: 2.5px;
+    }
+    .btn_contain5_more5:hover{
+    background: white;
+    color: black;
+    transition: 2s;
+    }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Начало блока Footer*/

@@ -45,6 +45,16 @@ Route::get('/OpenTovar', function () {
     return view('OpenTovar');
 });
 
+Route::get('/product', function () {
+    return view('product');
+});
+Route::get('/history', function () {
+    return view('history');
+});
+Route::get('/help', function () {
+    return view('help');
+});
+
 
 Auth::routes();
 
