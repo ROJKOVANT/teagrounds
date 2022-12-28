@@ -807,6 +807,52 @@ textarea {
     letter-spacing: 1px;
     line-height: 1.1vw;
 }
+input{
+    background-color: transparent;
+    border: none;
+    border: #ffffff 1px solid;
+    outline: none;
+    width: 20vw;
+    height: 40px;
+    color: white;
+    font-size: 1vw;
+    padding: 5px;
+    padding-left: 1vw;
+    margin-bottom: 1vw;
+    font-family: 'Comfortaa';
+}
+textarea{
+    background-color: transparent;
+    border: none;
+    border: #ffffff 1px solid;
+    outline: none;
+    width: 20vw;
+    height: auto;
+    color: white;
+    font-size: 1vw;
+    padding: 5px;
+    padding-left: 1vw;
+    margin-bottom: 1vw;
+    font-family: 'Comfortaa';
+}
+button{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    height: 40px;
+    font-size: 1vw;
+    font-family: 'Philosopher';
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+button:hover{
+    background: white;
+    color: black;
+    transition: 2s;
+}
 /*Конец блока напишите нам*/
 
 /*--------------------------------------------------------------------------------------------------------------------------------------*/

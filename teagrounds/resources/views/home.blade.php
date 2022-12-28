@@ -7,14 +7,14 @@
 </head>
 <div class="navigation">
     <div class="navigation-f1">
-        <li><a href="/" style="font-size:2.5vw;">Tea Grounds</a></li>
+        <li class="log"><a href="/">Tea Grounds</a></li>
     </div>
 
     <div class="navigation-f2">
         <li><a href="/about">О нас</a></li>
         <li><a href="/shop">Магазин</a></li>
         <li><a href="/blog">Блог</a></li>
-        <li><a href="">Конструктор</a></li>
+        <li><a href="admin">Конструктор</a></li>
     </div>
 
     <div class="navigation-f3">

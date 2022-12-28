@@ -7,7 +7,7 @@
 </head>
 <div class="navigation">
     <div class="navigation-f1">
-        <li><a href="/" style="font-size:2.5vw;">Tea Grounds</a></li>
+        <li class="log"><a href="/">Tea Grounds</a></li>
     </div>
 
     <div class="navigation-f2">
@@ -55,13 +55,28 @@
                     Будьте внимательны! Способ оплаты может быть недоступен для некоторых видов доставки или региона.
                     </div>
                 </details>
+                <details>
+                    <summary>Возможен ли самовывоз заказанного товара?</summary>
+                    <div>
+                    Да, возможен.  Для этого, при оформлении заказа выберете адрес удобного для Вас магазина. 
+                    После чего менеджер свяжется с Вами для детального обсуждения заказа и времени, в которое его можно будет забрать.
+                    </div>
+                </details>
+                <details>
+                    <summary>Как осуществляется доставка в регионы?</summary>
+                    <div>
+                    Предусмотрено несколько вариантов доставки: транспортные компании, курьерская доставка и почта России.
+                    Вы можете выбрать любой удобный для вас способ и указать желаемую дату доставки. 
+                    Оплата рассчитывается автоматически при указании региона и даты.
+                    </div>
+                </details>
             </div>
         </div>
         <!-- блок Form-->
         <div class="card">
             <p>Задайте нам свой вопрос</p>
             <div class="card-info">
-                <form name="form" method="post">
+                <form name="form" method="">
                     <input name="name" type="text" placeholder="Введите имя">
                     <br>
                     <input name="email" type="text" placeholder="Введите почту">
@@ -70,7 +85,7 @@
                     <br>
                     <textarea cols="32" name="message" rows="5" placeholder="Введите сообщение"></textarea>
                     <br>
-                    <input type="submit" value="Отправить" />
+                    <button type="submit" class="">Отправить</button>
                 </form>
             </div>
         </div>

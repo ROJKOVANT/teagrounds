@@ -25,9 +25,7 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/shop', function () {
-    return view('shop');
-});
+
 
 Route::get('/catalog', function () {
     return view('catalog');
@@ -54,8 +52,28 @@ Route::get('/history', function () {
 Route::get('/help', function () {
     return view('help');
 });
+Route::get('/shop', function () {
+    return view('shop');
+});
+/*роутеры для админки*/
+Route::get('/admin', function () {
+    return view('admin');
+});
+Route::get('/adminTovarAdd', function () {
+    return view('adminTovarAdd');
+});
+Route::get('/adminTovarDelete', function () {
+    return view('adminTovarDelete');
+});
+Route::get('/adminBlogDelete', function () {
+    return view('adminBlogDelete');
+});
 
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/admin', function (){
+    return view('admin');
+})->middleware('admin');

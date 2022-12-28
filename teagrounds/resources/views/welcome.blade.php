@@ -307,7 +307,9 @@
                     <br>
                     <textarea cols="32" name="message" rows="5" placeholder=" Введите сообщение"></textarea>
                     <br>
-                    <input type="submit" value="Отправить" />
+                    <button type="submit" class="">
+                        {{ __('Отправить') }}
+                    </button>
                 </form>
             </div>
         </section>
